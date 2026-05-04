@@ -1,12 +1,10 @@
-# 🤖 Crypto Advisor Bot
+# Crypto Advisor Bot
 
-## 📌 Descripción
+## Description
 
-Proyecto de análisis y asesoramiento de criptomonedas basado en Python, que combina indicadores técnicos, análisis de datos y modelos de machine learning para generar predicciones y evaluar estrategias de inversión.
+Python project focused on cryptocurrency analysis. It combines technical indicators and machine learning models to study market behavior and evaluate trading strategies.
 
----
-
-## 🚀 Tecnologías utilizadas
+## Technologies
 
 * Python
 * Pandas
@@ -14,89 +12,56 @@ Proyecto de análisis y asesoramiento de criptomonedas basado en Python, que com
 * Scikit-learn
 * Matplotlib
 
----
+## Features
 
-## 📊 Funcionalidades
+* Analysis of historical cryptocurrency data
+* Technical indicators calculation
+* Machine learning-based predictions
+* Strategy backtesting
+* Data visualization
 
-* 📈 Análisis de datos históricos de criptomonedas
-* 📊 Cálculo de indicadores técnicos
-* 🤖 Predicción mediante modelos de machine learning
-* 🔁 Backtesting de estrategias
-* 📉 Visualización de resultados y métricas
+## Installation
 
----
-
-## ⚙️ Cómo ejecutar el proyecto
-
-1. Clona el repositorio:
-
-```bash id="c1"
+```bash
 git clone https://github.com/tu-usuario/crypto-advisor-bot.git
-```
-
-2. Accede al directorio:
-
-```bash id="c2"
 cd crypto-advisor-bot
-```
-
-3. Instala las dependencias:
-
-```bash id="c3"
 pip install -r requirements.txt
 ```
 
-4. Ejecuta un ejemplo:
+## Usage
 
-```bash id="c4"
+```bash
 python examples/run_example.py
 ```
 
----
+## Project structure
 
-## 📂 Estructura del proyecto
-
-```id="c5"
+```
 crypto-advisor-bot/
-│
-├── advisor.py          # Lógica principal del asesor
-├── api_client.py       # Obtención de datos
-├── indicators.py       # Indicadores técnicos
-├── ml_model.py         # Modelo de machine learning
-├── predictor.py        # Predicciones
-├── backtesting.py      # Evaluación de estrategias
-├── visualization.py    # Gráficas y visualización
-├── utils.py            # Funciones auxiliares
-├── validators.py       # Validaciones
-├── examples/           # Ejemplos de uso
+├── advisor.py
+├── api_client.py
+├── indicators.py
+├── ml_model.py
+├── predictor.py
+├── backtesting.py
+├── visualization.py
+├── utils.py
+├── validators.py
+├── examples/
 └── README.md
 ```
 
----
+## Purpose
 
-## 📈 Objetivo
+The goal of this project is to explore how data analysis and machine learning can be applied to cryptocurrency markets and to evaluate simple trading strategies.
 
-El objetivo de este proyecto es desarrollar un sistema capaz de analizar el mercado de criptomonedas y apoyar la toma de decisiones mediante datos, indicadores técnicos y modelos predictivos.
+## Future improvements
 
----
+* Integration with real-time data
+* Model improvements
+* Additional indicators
+* Basic interface
 
-## 📊 Resultados
+## Author
 
-* Generación de señales basadas en datos históricos
-* Evaluación de estrategias mediante backtesting
-* Visualización clara de tendencias y predicciones
-
----
-
-## 💡 Mejoras futuras
-
-* Integración con APIs en tiempo real
-* Mejora del modelo predictivo
-* Implementación de nuevas estrategias
-* Desarrollo de interfaz web
-
----
-
-## 👨‍💻 Autor
-
-Proyecto desarrollado como parte de formación en Inteligencia Artificial y análisis de datos.
+Personal project developed as part of my training in artificial intelligence.
